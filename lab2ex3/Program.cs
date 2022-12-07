@@ -18,13 +18,13 @@ namespace lab2ex3
 
             }
             int media = 0;
-            int j = 0;
+            int NrPare = 0;
             for(int i = 0; i<n; i++)
             {
                 if(sir[i]%2==0)
                 {
                     media = media + sir[i];
-                    j++;
+                    NrPare++;
                 }
             }
             if(j==0)
@@ -33,7 +33,7 @@ namespace lab2ex3
             }
             else
             {
-                Console.WriteLine("Media artimetica a numerelor pare din sir este " + media / j);
+                Console.WriteLine("Media artimetica a numerelor pare din sir este " + media / NrPare);
 
             }
 
